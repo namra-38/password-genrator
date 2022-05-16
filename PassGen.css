@@ -1,0 +1,98 @@
+
+.container{
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 430px;
+  top: 30px;
+  background: #ECFDF5;
+}
+
+h1{
+  position: absolute;
+  width: 332px;
+  height: 80px;
+  left: 52px;
+  top: 110px;
+  
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+  
+  letter-spacing: -0.05em;
+  color: #2B283A;
+}
+
+p{
+  position: absolute;
+  width: 372px;
+  height: 28px;
+  left: 52px;
+  top: 200px;
+  
+  /* text-xl/leading-7/font-normal */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  color: #6B7280;
+}
+
+button{
+  /* Button */
+  
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  color: white;
+  position: absolute;
+  width: 223px;
+  height: 42px;
+  left: 52px;
+  top: 279px;
+  
+  background: #10B981;
+  /* /* shadow/sm */
+  
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border: none;
+  border-radius: 6px; 
+}
+
+hr{
+  position: absolute;
+  width: 446px;
+  height: 0px;
+  left: 52px;
+  top: 356px;
+  
+  border: 1px solid #D5D4D8;
+}
+
+input{
+
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 52px;
+  top: 391px;
+  color: #5DEF92;
+  background: #273549;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 37px;
+  /* cursor: pointer; */
+}
+
+
+
